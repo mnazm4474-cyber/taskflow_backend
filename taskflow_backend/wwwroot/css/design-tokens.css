@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+  --tf-bg: #F8F9FA;
+  --tf-surface: #FFFFFF;
+  --tf-text: #171923;
+  --tf-text-muted: #687080;
+  --tf-border: #E4E7EC;
+  --tf-primary: #505AC9;
+  --tf-primary-hover: #424CB7;
+  --tf-primary-contrast: #FFFFFF;
+  --tf-primary-soft: #F0F1FC;
+  --tf-success: #247A5A;
+  --tf-success-soft: #E8F5EE;
+  --tf-warning: #94620D;
+  --tf-warning-soft: #FFF4DB;
+  --tf-danger: #B33E4B;
+  --tf-danger-soft: #FCEBED;
+  --tf-info: #356A9A;
+  --tf-info-soft: #EAF3FA;
+  --tf-shadow: 0 2px 8px rgb(23 25 35 / 5%);
+  --tf-radius-sm: 6px;
+  --tf-radius-control: 10px;
+  --tf-radius-card: 14px;
+  --tf-radius-container: 16px;
+  --tf-space-1: 4px;
+  --tf-space-2: 8px;
+  --tf-space-3: 12px;
+  --tf-space-4: 16px;
+  --tf-space-5: 20px;
+  --tf-space-6: 24px;
+  --tf-space-8: 32px;
+  --tf-sidebar-width: 256px;
+  --tf-sidebar-collapsed-width: 76px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --tf-bg: #121212;
+  --tf-surface: #1C1C1F;
+  --tf-text: #F2F3F5;
+  --tf-text-muted: #A3A7B0;
+  --tf-border: #34343B;
+  --tf-primary: #7C84E8;
+  --tf-primary-hover: #9299F0;
+  --tf-primary-contrast: #121212;
+  --tf-primary-soft: #292A42;
+  --tf-success: #75C7A1;
+  --tf-success-soft: #1D3329;
+  --tf-warning: #E6BC65;
+  --tf-warning-soft: #382E1A;
+  --tf-danger: #F08B96;
+  --tf-danger-soft: #3A2327;
+  --tf-info: #86B9E6;
+  --tf-info-soft: #1F2D3A;
+  --tf-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+}

@@ -16,6 +16,12 @@ Health check: `http://localhost:3000/api/health`
 
 SQLite database is created automatically at `data/taskflow.db`. The first run seeds a demo workspace, users, teams, projects, and tasks.
 
+## Frontend
+
+The standalone workspace demo is in `taskflow_frontend.html`. Open it in a browser or serve the project directory with a static file server. It loads Bootstrap 5.3.3 and Inter from their CDNs; its TaskFlow tokens, components, and page styles are in `wwwroot/css`, with shared theme/navigation behavior and page interactions in `wwwroot/js`.
+
+See [DESIGN-SYSTEM.md](./DESIGN-SYSTEM.md) before changing the frontend. The current page uses demo data and is not connected to the API.
+
 ## API routes
 
 | Method | Route | Purpose |
